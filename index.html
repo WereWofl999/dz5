@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Побудова форм</h1>
+    </header>
+
+    <main>
+    <section>
+        <h2>
+            <label for="name">Повне ім’я:</label>
+        <input 
+            type="text" 
+            placeholder="Ведить ім'я" 
+            id="name"
+            > 
+        </h2>
+    </section>
+
+    <section>
+        <h2>
+            <label for="Email">Email</label>
+        <input 
+            type="text"
+            placeholder="Ведить Email"
+            id="Email">
+        </h2>
+    </section>
+
+    <section>
+        <h2>
+            <label for="password">Пароль</label>
+        <input 
+            type="text"
+            placeholder="Ведить Пароль"
+            id="password">
+        </h2>
+    </section>
+
+    <section>
+        <h2>
+            <label for="password confirmation">Підтвердження пароля</label>
+        <input type="text"
+            placeholder="Підтвердження пароля"
+            id="password confirmation">
+        </h2>
+    </section>
+
+    <section>
+        <h2>
+        <label for="">Стать
+            <input type="radio" name="animal" value="male" checked> Чоловічий
+            <input type="radio" name="animal" value="female" checked> Жіночий
+        </label>
+        </h2>
+    </section>
+
+    <section>
+        <h2>
+            <label for="age">Вік</label>
+        <input 
+            type="text"
+            placeholder="Твій вік"
+            id="age">
+        </h2>
+    </section>
+
+    <section>
+        <h2>
+            <label for="well">Курс</label>
+            <select class="form-input form-input-select" name="well" id="well">
+                <option>Select</option>
+                <option value=" Front-End"> Front-End</option>
+                <option value=" Back-End"> Back-End</option>
+                <option value="Project Management">Project Management</option>
+                <option value="QA Manual">QA Manual</option>
+            </select>
+        </h2>
+    </section>
+
+    <section>
+        <h2>
+            <label for="comment">Повна адреса проживання</label>
+            <textarea id="comment" cols="30" rows="10"placeholder="Країна,регіон,місто/селище,вулиця"></textarea>
+        </h2>
+    </section>
+    </main>
+
+    <footer>
+        <h2>
+            <label>
+            <input type="checkbox" name="skills[]" value="js">Я погоджуюсь з обробкою персональних діних
+            </label>
+        </h2>
+        <section>
+            <button>Очистити форму</button>
+            <button>Зареєструватися</button>
+        </section>
+    </footer>
+</body>
+</html>
